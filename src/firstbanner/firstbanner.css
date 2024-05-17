@@ -1,0 +1,128 @@
+/* .banner1{
+   
+   margin-left: 20px;
+   width: 1480px;
+height: 350px;
+background: #626262;
+top: 94px;
+left: 32px;
+border-radius: 10px;
+display: flex;
+
+align-items: center;
+   
+}
+
+.banner2{
+   margin-left: 50px;
+    background: #9B9B9B;
+    width: 355.41px;
+height: 181px;
+top: 140px;
+left: 90px;
+gap: 0px;
+border-radius: 15px ;
+opacity: 0px;
+
+
+}
+.banner3 h2{
+    font-family: ubuntu;
+    font-size: 30px;
+    color: white;
+
+}
+.banner2 h2{
+    font-family: ubuntu;
+    font-size: 30px;
+    color: white;
+
+}
+
+.banner3{
+    background: #9B9B9B;
+margin: 10px;
+    width: 355.41px;
+height: 181px;
+top: 140px;
+left: 494.59px;
+gap: 0px;
+border-radius: 15px ;
+opacity: 0px;
+
+
+
+}
+.btn1 {
+    width: 167.65px;
+height: 38px;
+top: 245px;
+left: 183.88px;
+gap: 0px;
+opacity: 0px;
+border: none;
+background: linear-gradient(90deg, #B5DC52 0%, #89E148 100%);
+border-radius: 10px;
+color: white;
+font-family: ubuntu;
+font-size: 16px;
+cursor: pointer;
+}
+.btn2{
+
+    width: 167.65px;
+    height: 38px;
+    top: 245px;
+    left: 183.88px;
+    gap: 0px;
+    opacity: 0px;
+    border: none;
+    background: linear-gradient(90deg, #FF9595 0%, #FF4747 80%, #FF3838 100%);
+    font-family: ubuntu;
+    font-size: 16px;
+
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    
+} */
+
+header{
+    background-color: #636362;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 3rem;
+}
+
+
+@media screen and (min-width: 850px) and (max-width: 929px) {
+    header{
+        flex-wrap: wrap-reverse;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 849px) {
+    header{
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
+        padding: 1rem;
+    }
+    .card{
+        width: 100%;
+    }
+}
+
+/* large screens */
+@media screen and (min-width: 929px) {
+    header{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

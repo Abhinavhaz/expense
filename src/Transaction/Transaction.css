@@ -1,0 +1,30 @@
+/* .transactionbanner{ */
+/* position:relative; */
+    /* margin-left: 20px;
+    width: 900px;
+ height: 350px;
+ background:white;
+ top: 94px;
+ left: 32px;
+ border-radius: 10px;
+ display: flex;
+ margin-top: 40px;
+ align-items: center;
+ margin-bottom: 20px;
+
+}
+.rh2{
+
+} */
+
+.Transactions{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+
+@media screen and (min-width: 780px) {
+    .Transactions{
+    }
+}
